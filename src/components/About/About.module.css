@@ -27,6 +27,7 @@
 
 .aboutImage {
   width: 35%;
+  height: 40%;
 }
 
 .aboutItems {
@@ -45,7 +46,7 @@
   padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
+    rgba(216, 165, 232, 0.42) 0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-size: 0 100%;
@@ -58,11 +59,13 @@
 }
 
 .aboutItem h3 {
+  padding-left: 20px;
   font-size: 25px;
   font-weight: 600;
 }
 
 .aboutItem p {
+  padding-left: 20px;
   font-size: 25px;
 }
 
@@ -90,3 +93,18 @@
     padding-right: 0;
   }
 }
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(21, 6, 22, 0.7);
+  filter: blur(100px);
+  z-index: -1;
+}
+
