@@ -34,6 +34,15 @@ export const About = () => {
               </p>
             </div>
           </li>
+          <li className={styles.aboutItem}>
+            <img height={40} src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>UI Designer</h3>
+              <p>
+                I have designed multiple prototype for my project and Hackthon
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
       <div className={styles.topBlur} />

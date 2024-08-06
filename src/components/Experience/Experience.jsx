@@ -9,7 +9,7 @@ export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <div className={styles.mainBox}>
-      <h2 className={styles.title}>Experience</h2>
+      <h2 className={styles.title}>Skills</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -36,7 +36,7 @@ export const Experience = () => {
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                      return <p key={id}>{experience}</p>;
                     })}
                   </ul>
                 </div>
